@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "flit_app"
+author = "Mike"
+author-email = "miwright@proofpoint.com"
+home-page = "http://reserolabs.science"
+
+requires = [
+    "requests (>=2.6)",
+    "flask (>=1.0)"
+]

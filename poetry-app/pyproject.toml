@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "poetry-app"
+version = "0.1.0"
+description = ""
+authors = ["Michael Wright <mkwright@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "*"
+requests = "^2.19"
+flask = "^1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+pylint = "^2.1"
